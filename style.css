@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+} 
+
+body {
+    background-color: #1A1717;
+}
+h2{
+    color: white;
+    font-family:cursive;
+}
+.line {
+    height: 0.1rem;
+    width: 25rem;
+    background-color: white;
+
+}
+p{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+hr {
+    width: 100%;
+    height: .1rem;
+    color: rgb(188, 46, 46);
+}
+.material-symbols-outlined{
+    color: #3DB215;
+}
+
+.GradientBoarder{
+    width: 100%;
+    height: 2rem;
+    background-image: linear-gradient(#f19b1a, #3DB215 ,#e11818,#1A1717 );
+    opacity: 0.2;
+}
+
+.ColorContainer {
+    display: flex;
+    width: 100%;
+    height: 790px;
+    background-image: linear-gradient(#f19b1a, #e11818,#1A1717 );
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+
+}
+.headerText {
+    margin-right: 3rem;
+}
+.introText {
+    color: black;
+    width: 30rem;
+}
+
+.LogoImg {
+    height: 20rem;
+    width: 20rem;
+    margin-top: 2rem;
+}
+
+.thePrdouct1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.thePrdouct2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+button {
+    height: 1.5rem;
+    width: 5rem;
+    background-color: blue;
+    border-radius: 20rem;
+    
+}
+.productImg {
+    width: 100%;
+    height: 325px;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.thePrdouct{
+    width: 325px;
+    height: 360px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+.productPrice {
+  font-size: medium;
+  margin-left: 1rem;
+}
+
+.contactDiv {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+
+.message {
+    width: 25rem;
+    height: 8rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    
+}
+
+.writingText {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    height:10rem;
+    width: 10rem;
+    margin-top: 2rem;
+}
+
+.imgOfWorker {
+    height: 12rem;
+    width: 12rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 6rem;
+    
+}
+
+.imgCircel {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.Img{
+    width: 15rem;
+    height: 10rem;
+    margin-top: 2rem;
+    display: flex;
+}
+
+
+
+    
+
+
+
+@media (max-width: 900px){
+
+    .ColorContainer {
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+
+   .thePrdouct1, .thePrdouct2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+   
+    .contactDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    
+}
